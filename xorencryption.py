@@ -12,6 +12,7 @@ bin_format = lambda bin_value, lenght:  "0" * (lenght - len(str(bin_value)[2:]))
 char_list = [chr(i) for i in range(128)]                                                                # list of avaible characters
 str2bin_dict = {char_list[i] : bin_format(bin(i), 8) for i in range(len(char_list))}                    # convertion dictionary
 bin2str_dict = {value: key for (key, value) in str2bin_dict.items()}                                    # //
+open("quick_test.txt", "w", encoding="utf-8").write("".join(char_list))
 
 
 def str2bin(text, convertion_dict: dict = str2bin_dict) -> str:
