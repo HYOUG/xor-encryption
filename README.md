@@ -9,7 +9,7 @@ Avaible characters : **128 first ASCII characters** :
 ```bash
 git clone https://github.com/HYOUG/BinaryEncryption.git
 ```
-or, Code button > Download ZIP
+or, `Code button` > `Download ZIP`
 
 ## ⚙️ Usage
 Command line mode :
