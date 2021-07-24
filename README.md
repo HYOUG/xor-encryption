@@ -1,5 +1,5 @@
 # XOR Encryption / Decryption
-A simple python script that **encrypts** a **target** file through the **XOR** operator and a **key** file.
+A simple python script that encrypts a target file bytes through the XOR operator and a key file.
 
 ## 💾 Installation
 ```bash
@@ -14,13 +14,13 @@ python main.py (fp_target) (target_key)
 ```
 
 ## 📌 Examples
-Input :
+**Input** (*./examples/target.txt*) :
 > Hello Github !
 
-Key :
+**Key** (*./examples/key.txt*) :
 > p455w0rd
 
-Output :
+**Output** (*./examples/target_encrypted.txt*) :
 > 8P7PQ
 
 ## 📜 License
