@@ -1,2 +1,5 @@
 # Ignore the IDE settings :
 .vscode/
+
+# Useless infos :
+TODO

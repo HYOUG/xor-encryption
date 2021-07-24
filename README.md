@@ -1,9 +1,5 @@
-# Binary Encryption
-A simple python script that **encrypts** through the **XOR** operator and a **key**.
-Avaible characters : **128 first ASCII characters** :
-> !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-
-\+ some invisible charcters
+# XOR Encryption / Decryption
+A simple python script that **encrypts** a **target** file through the **XOR** operator and a **key** file.
 
 ## 💾 Installation
 ```bash
@@ -14,29 +10,18 @@ or, `Code button` > `Download ZIP`
 ## ⚙️ Usage
 Command line mode :
 ```bash
-python xorencryption.py (-e | -d) (key) (target filepath)
+python main.py (fp_target) (target_key)
 ```
-User input mode :
-```bash
-python xorencryption.py
-```
-```
-Enter the text to encrypt/decrypt : (type/paste your text here)
-```
-```
-Enter the key : (type/paste your key here)
-```
-
 
 ## 📌 Examples
 Input :
-> Hello Github ! -HYOUG
+> Hello Github !
 
 Key :
 > p455w0rd
 
 Output :
-> 8QYY5\@WWxn]}l8e5
+> 8P7PQ
 
 ## 📜 License
 [MIT](https://choosealicense.com/licenses/mit/) (2021) License protected project.
